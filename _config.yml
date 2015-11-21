@@ -18,4 +18,15 @@ twitter_username:
 github_username:  Rahmside
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+#  math_engine: mathjax
+#  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
+#  toc_levels: 1..6
+#  smart_quotes: lsquo,rsquo,ldquo,rdquo
+#  enable_coderay: false
+
+#markdown: redcarpet
+#permalink: pretty
