@@ -30,6 +30,8 @@ github_username:  Rahmside
 #  smart_quotes: lsquo,rsquo,ldquo,rdquo
 #  enable_coderay: false
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "autolink", "fenced_code_blocks", "strikethrough"]
+#markdown: redcarpet
+#redcarpet:
+#  extensions: ["no_intra_emphasis", "tables", "autolink", "fenced_code_blocks", "strikethrough"]
+
+markdown: KramdownPygments
